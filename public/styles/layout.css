@@ -1,0 +1,83 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #e8eaf596;
+    border-radius: 15px; 
+    margin-top: 50px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+.inputForm {            
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+input[type="text"] {
+height: 45px;
+border: none;
+border-radius: 5px;
+padding: 3px 10px;
+font-size: 26px;
+font-weight: 500;
+margin: 0px 10px;
+
+}
+.heading {
+
+    background-color: #79a1f7;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 15px 15px 0 0;
+    font-weight: bolder;
+}
+#button-addon2{
+    background-color: #79a1f7;
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    
+}
+.box {
+    overflow: auto;
+    height: 300px;
+}
+
+.item {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+input[type="checkbox"] {
+    margin: 20px;
+}
+label {
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+    /* font-weight: 200; */
+    color: #00204a;
+}
+input:checked+label {
+text-decoration: line-through;
+text-decoration-color: #530909;
+}
+footer {
+    flex: 0 0 auto;
+    color: rgb(19, 4, 87);
+    color: rgba(54, 9, 90, 0.5);
+    text-align: center;
+}
